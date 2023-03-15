@@ -6,11 +6,13 @@ body {
 
 h1,
 h2 {
-    font-family: Impact, sans-serif;
+    font-family: Impact;
 }
 
 h1 {
     font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 h2 {
@@ -83,4 +85,15 @@ a:hover {
 
 a:active {
     color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -25px;
 }
